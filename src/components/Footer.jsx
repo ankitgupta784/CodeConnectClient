@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
+    <>
         <footer className="footer bg-neutral text-neutral-content p-10 relative bottom-0">
             <nav>
                 <h6 className="footer-title">Services</h6>
@@ -25,7 +25,7 @@ const Footer = () => {
                 <a className="link link-hover">Cookie policy</a>
             </nav>
             </footer>
-    </div>
+    </>
   )
 }
 
