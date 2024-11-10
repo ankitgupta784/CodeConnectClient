@@ -16,7 +16,7 @@ const NavBar = () => {
       dispatch(removeUser());
       return navigate("/login");
     } catch (err) {
-      console.log(err);
+      //console.log(err);
     }
   };
 
